@@ -1,0 +1,62 @@
+.page-2{
+    margin-top: 130px;
+    .row{
+        width: 500px;
+        a{
+            text-decoration: none;
+            color: #7A7A7A;
+        }
+        a:first-child{
+            color: #4E9F0D;
+        }
+    
+    }
+    
+    .row:not(:first-child){
+        margin-top: 100px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        .card{
+            color: white;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            button{
+                position: absolute;
+                padding: 10px 35px;
+                background-color: #4E9F0D;
+                font-size: 30px;
+                font-family: "Raleway";
+                border: none;
+                color: white;
+                margin-top: 225px;
+            }
+            b{
+                margin-top: 20px;
+                color: #4E9F0D;
+            }
+            p{
+                font-size: 13px;
+            }
+            .green-blur{
+                position: absolute;
+                width: 280px;
+                height: 280px;
+                background-color: #73ff0000;
+                transition: all 0.5s ease;
+            }
+        }
+        .card:hover .green-blur{
+            background-color: #4f9f0d41;
+        }
+    }
+
+    .row:nth-child(3){
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+
+}    
+
+

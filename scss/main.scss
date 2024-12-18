@@ -1,0 +1,26 @@
+@import "./reset";
+@import "./container";
+@import "./header";
+@import "./home-page";
+@import "./page-2";
+@import "./page-3";
+@import "./footer";
+
+body{
+    background-image: url(../assets/images/bg_img\ 1.png);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
